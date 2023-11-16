@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  font: 'Jost', 'Averta', Serif, sans-serif;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header{
+  background-color: #303A47;
+  box-shadow: 0 0 5px gray;
+  padding: 10px;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  border-radius: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.5s, border 0.5s; 
+}
+
+nav a:hover{
+  background-color: white;
+  cursor: pointer;
+  color: #34486b;
+}
+.textInfo{
+  color: #303A47;
+}
+.textInfo p {
+  font: sans-serif;
+  font-size : 18px;
+  line-Height: 2.5;
+  color: #303A47;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.textInfo img {
+width: 100%;
+}
